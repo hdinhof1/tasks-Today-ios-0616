@@ -68,7 +68,7 @@ describe(@"viewSpecs", ^{
 
         [tester waitForViewWithAccessibilityLabel:@"eventsView"];
         UITextView *textView= (UITextView *)[tester waitForViewWithAccessibilityLabel:@"events list"];
-        expect(textView.text).to.equal(@"testing last year\ntesting last year2");
+        expect(textView.text).to.equal(@"testing last year\ntesting last year2\n");
 
     });
     
